@@ -2,7 +2,7 @@
 
 ## My prediction
 
-<!-- One line, from memory: what did I change? -->
+I renamed a variable in `notes.js`, changed the list output format, and added a `count()` helper to `lib/store.js`.
 
 ## Claude's summary
 
@@ -22,4 +22,4 @@ Flagged as possibly unintended:
 
 ## Did Claude catch the stray change?
 
-<!-- One sentence. -->
+Yes, Claude flagged the `SESSION_TIMEOUT_MINUTES` change from 15 to 30 in `lib/config.js` as the most likely stray change, which my prediction had left out.
